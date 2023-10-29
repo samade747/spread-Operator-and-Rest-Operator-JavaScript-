@@ -53,3 +53,21 @@ let foo = function(){
 }
 
 foo()
+
+
+//ES6 FUNCTION 
+// ARROW FUNCTION
+// let abc = (a) =>{
+//     document.write(a)
+// }
+
+// abc('samad')
+
+// let abc = (a, b) =>{
+//     document.write(a, b)
+// }
+
+// abc(`samad', 'kamil`)
+
+let eq = (a,b,c) => a + b - c
+document.write(eq(1,2,5))
