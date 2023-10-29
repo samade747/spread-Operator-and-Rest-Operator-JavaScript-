@@ -34,3 +34,22 @@ let obj2 = {
 
 
 console.log(obj2)
+
+
+
+
+//Calling function & below created 
+abc()
+
+function abc(){
+    console.log('hello')
+}
+
+
+// function expression 
+// Escript 6 
+let foo = function(){
+    console.log('samad')
+}
+
+foo()
